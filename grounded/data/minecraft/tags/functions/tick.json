@@ -1,17 +1,5 @@
 {
  "values": [
- "droppercrafter:spawndropper",
- "droppercrafter:killdropper",
- "hyperfurnace:spawnfurnace",
- "hyperfurnace:killfurnace",
- "forge:spawnforge",
- "forge:killforge",
- "hyperfurnace:furnacespeed",
- "chute:chutespeed",
- "chute:spawnchute",
- "chute:killchute",
- "recipes:recipelist",
- "itemfunctions:sweetaxe",
- "structures:structurelist"
+ "minecraft:functionlist"
  ]
 }
