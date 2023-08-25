@@ -1,0 +1,1 @@
+execute at @e[type=marker,name="hyperfurnace"] run data merge block ~ ~ ~ {CookTime:199,BurnTime:1600s}

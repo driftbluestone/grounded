@@ -1,0 +1,4 @@
+larger netherite veins: https://modrinth.com/datapack/larger-ore-veins-nether/version/1.0.2
+nether quartz and nether gold actually made by me!
+other ores placed_feature generated on: misode.github.io
+other configured_feature also made by me

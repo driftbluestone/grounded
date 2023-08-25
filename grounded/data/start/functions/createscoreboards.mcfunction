@@ -1,0 +1,17 @@
+scoreboard objectives add SweetAxeOakLog minecraft.mined:minecraft.oak_log
+scoreboard objectives add SweetAxeSpruceLog minecraft.mined:minecraft.spruce_log
+scoreboard objectives add SweetAxeBirchLog minecraft.mined:minecraft.birch_log
+scoreboard objectives add SweetAxeJungleLog minecraft.mined:minecraft.jungle_log
+scoreboard objectives add SweetAxeAcaciaLog minecraft.mined:minecraft.acacia_log
+scoreboard objectives add SweetAxeDarkOakLog minecraft.mined:minecraft.dark_oak_log
+scoreboard objectives add SweetAxeMangroveLog minecraft.mined:minecraft.mangrove_log
+scoreboard objectives add SweetAxeCherryLog minecraft.mined:minecraft.cherry_log
+scoreboard objectives add SweetAxeOakWood minecraft.mined:minecraft.oak_wood
+scoreboard objectives add SweetAxeSpruceWood minecraft.mined:minecraft.spruce_wood
+scoreboard objectives add SweetAxeBirchWood minecraft.mined:minecraft.birch_wood
+scoreboard objectives add SweetAxeJungleWood minecraft.mined:minecraft.jungle_wood
+scoreboard objectives add SweetAxeAcaciaWood minecraft.mined:minecraft.acacia_wood
+scoreboard objectives add SweetAxeDarkOakWood minecraft.mined:minecraft.dark_oak_wood
+scoreboard objectives add SweetAxeMangroveWood minecraft.mined:minecraft.mangrove_wood
+scoreboard objectives add SweetAxeCherryWood minecraft.mined:minecraft.cherry_wood
+scoreboard objectives add SweetAxe dummy

@@ -1,0 +1,1 @@
+execute at @e[type=marker,name="fasthopper"] run data merge block ~ ~ ~ {TransferCooldown:0}

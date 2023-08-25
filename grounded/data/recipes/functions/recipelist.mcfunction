@@ -1,0 +1,9 @@
+function recipes:spawneggblocks
+function recipes:ecraftingm
+function recipes:ecraftingf
+function recipes:ecraftingl
+function recipes:ecraftingp
+function recipes:ecraftingh
+function recipes:ecraftingw
+function recipes:tools
+function recipes:items

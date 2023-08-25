@@ -1,0 +1,13 @@
+{
+ "values": [
+ "droppercrafter:loaded",
+ "hyperfurnace:loaded",
+ "recipes:loaded",
+ "chute:loaded",
+ "itemfunctions:loaded",
+ "loottables:loaded",
+ "forge:loaded",
+ "structures:loaded",
+ "start:createscoreboards"
+ ]
+}

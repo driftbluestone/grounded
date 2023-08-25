@@ -1,0 +1,1 @@
+give @s bat_spawn_egg{EntityTag:{id:marker},display:{Name:'[{"text":"WerkBench","italic":false}]'}}
