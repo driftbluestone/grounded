@@ -1,3 +1,3 @@
-execute at @e[type=marker,name=forge] if block ~ ~ ~ air run kill @e[type=item,distance=..1,limit=1,nbt={Item:{id:"minecraft:dropper"}}]
-execute at @e[type=marker,name=forge] if block ~ ~ ~ air run give @p minecraft:bat_spawn_egg{EntityTag:{id:marker},display:{Name:'[{"text":"The Forge","italic":false}]'}}
-execute at @e[type=marker,name=forge] if block ~ ~ ~ air run kill @e[type=minecraft:marker,distance=..1,limit=1,sort=nearest]
+execute at @e[type=marker,name="forge"] if block ~ ~ ~ air run kill @e[type=item,distance=..1,limit=1,nbt={Item:{id:"minecraft:dropper"}}]
+execute at @e[type=marker,name="forge"] if block ~ ~ ~ air run give @p minecraft:bat_spawn_egg{EntityTag:{id:"marker"},display:{Name:'[{"text":"The Forge","italic":false}]'}}
+execute at @e[type=marker,name="forge"] if block ~ ~ ~ air run kill @e[type=minecraft:marker,distance=..1,limit=1,sort=nearest]

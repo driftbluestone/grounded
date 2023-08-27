@@ -1,0 +1,3 @@
+function hyperfurnace:furnacespeed
+function hyperfurnace:killfurnace
+function hyperfurnace:testair

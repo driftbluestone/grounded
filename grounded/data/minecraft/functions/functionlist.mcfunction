@@ -1,9 +1,6 @@
-function droppercrafter:spawndropper
-function droppercrafter:killdropper
-function hyperfurnace:spawnfurnace
-function hyperfurnace:killfurnace
-function forge:spawnforge
-function forge:killforge
+function droppercrafter:functionlist
+function hyperfurnace:functionlist
+function forge:functionlist
 function hyperfurnace:furnacespeed
 function chute:chutespeed
 function chute:spawnchute

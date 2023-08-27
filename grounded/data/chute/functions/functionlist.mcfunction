@@ -1,0 +1,2 @@
+function chute:killdropper
+function chute:testair
