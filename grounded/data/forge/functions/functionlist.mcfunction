@@ -1,2 +1,2 @@
-function forge:killdropper
+function forge:killforge
 function forge:testair
