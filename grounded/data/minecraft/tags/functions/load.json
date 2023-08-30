@@ -8,6 +8,7 @@
  "loottables:loaded",
  "forge:loaded",
  "structures:loaded",
+ "dimensions:loaded",
  "start:createscoreboards"
  ]
 }

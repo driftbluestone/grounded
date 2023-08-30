@@ -1,0 +1,1 @@
+function forge:recipes/obsidianchestplate

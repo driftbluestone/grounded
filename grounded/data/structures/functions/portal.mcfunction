@@ -1,10 +1,10 @@
 # create portal
-execute at @e[type=minecraft:marker,name="spawnportal"] run fill ~1 ~-1 ~2 ~-1 ~-1 ~2 minecraft:end_portal_frame
-execute at @e[type=minecraft:marker,name="spawnportal"] run fill ~1 ~-1 ~-2 ~-1 ~-1 ~-2 minecraft:end_portal_frame[facing=south]
-execute at @e[type=minecraft:marker,name="spawnportal"] run fill ~2 ~-1 ~1 ~2 ~-1 ~-1 minecraft:end_portal_frame[facing=west]
-execute at @e[type=minecraft:marker,name="spawnportal"] run fill ~-2 ~-1 ~1 ~-2 ~-1 ~-1 minecraft:end_portal_frame[facing=east]
-execute at @e[type=minecraft:marker,name="spawnportal"] run fill ~1 ~-1 ~1 ~-1 ~-1 ~-1 air
-execute at @e[type=minecraft:marker,name="spawnportal"] run summon marker ~ ~ ~ {CustomName:'[{"text":"killportal"}]'}
+execute at @e[type=minecraft:marker,name="spawnportal"] run fill ~1 ~ ~2 ~-1 ~ ~2 minecraft:end_portal_frame
+execute at @e[type=minecraft:marker,name="spawnportal"] run fill ~1 ~ ~-2 ~-1 ~ ~-2 minecraft:end_portal_frame[facing=south]
+execute at @e[type=minecraft:marker,name="spawnportal"] run fill ~2 ~ ~1 ~2 ~ ~-1 minecraft:end_portal_frame[facing=west]
+execute at @e[type=minecraft:marker,name="spawnportal"] run fill ~-2 ~ ~1 ~-2 ~ ~-1 minecraft:end_portal_frame[facing=east]
+execute at @e[type=minecraft:marker,name="spawnportal"] run fill ~1 ~ ~1 ~-1 ~ ~-1 air
+execute at @e[type=minecraft:marker,name="spawnportal"] run summon marker ~ ~1 ~ {CustomName:'[{"text":"killportal"}]'}
 execute as @e[type=minecraft:marker,name="spawnportal"] run kill @s
 
 # kill portal
