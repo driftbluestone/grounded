@@ -3,3 +3,4 @@ function crusher:crushing/gravel
 function crusher:crushing/cobblestone
 function crusher:crushing/cobblslate
 function crusher:crushing/stone
+function crusher:crushing/wdna
