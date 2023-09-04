@@ -1,0 +1,3 @@
+execute at @e[type=marker,name="incubator"] unless block ~ ~ ~ composter run kill @e[type=item,distance=..1,limit=1,nbt={Item:{id:"minecraft:composter"}}]
+execute at @e[type=marker,name="incubator"] unless block ~ ~ ~ composter run give @p minecraft:rabbit_spawn_egg{EntityTag:{id:"marker"},display:{Name:'[{"text":"Incubator","italic":false}]'}}
+execute at @e[type=marker,name="incubator"] unless block ~ ~ ~ composter run kill @e[type=minecraft:marker,distance=..1,limit=1,sort=nearest]

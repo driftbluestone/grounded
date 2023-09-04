@@ -1,1 +1,2 @@
 function forge:recipes/obsidianchestplate
+function forge:recipes/eglass

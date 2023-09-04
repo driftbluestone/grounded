@@ -1,0 +1,1 @@
+execute as @a[scores={usedcoas=1..},nbt={SelectedItem:{tag:{aote:1b}}}] at @s run function aote:useaote

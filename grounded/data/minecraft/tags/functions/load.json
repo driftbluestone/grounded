@@ -9,6 +9,9 @@
  "forge:loaded",
  "structures:loaded",
  "dimensions:loaded",
+ "aote:loaded",
+ "genetics:loaded",
+ "crusher:loaded",
  "start:createscoreboards"
  ]
 }

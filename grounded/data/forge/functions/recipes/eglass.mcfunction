@@ -1,0 +1,6 @@
+execute as @e[type=marker,name="forge",tag=Crafting,tag=CraftingEGlass] at @s unless entity @e[type=area_effect_cloud,distance=..0.1] run summon minecraft:item ~ ~0.5 ~ {Item:{id:"minecraft:glass",Count:1b,tag:{display:{Name:'[{"text":"Enchanted Glass","italic":false,"color":"green"}]'},Enchantments:[{id:"protection",lvl:1}],HideFlags:1,Enchanted:1b}}}
+execute as @e[type=marker,name="forge",tag=Crafting,tag=CraftingEGlass] at @s unless entity @e[type=area_effect_cloud,distance=..0.1] run function forge:recipes/tags/eglass
+execute as @e[type=marker,name="forge",tag=!Crafting] at @s if block ~ ~-1 ~ fire if entity @e[limit=1,type=item,distance=..0.5,nbt={Item:{id:"minecraft:sand",Count:1b,tag:{Enchanted:1b}}}] run tag @s add CraftingEGlass
+execute as @e[type=marker,name="forge",tag=CraftingEGlass] run tag @s add Crafting
+execute as @e[type=marker,name="forge",tag=CraftingEGlass,tag=Crafting] at @s run data merge entity @e[limit=1,type=item,nbt={Item:{id:"minecraft:sand",Count:1b,tag:{Enchanted:1b}}}] {Item:{id:"minecraft:air",Count:1b}}
+execute as @e[type=marker,name="forge",tag=CraftingEGlass,tag=Crafting] at @s unless entity @e[type=area_effect_cloud,distance=..0.1] run summon area_effect_cloud ~ ~ ~ {Particle:ambient_entity_effect,Radius:0,RadiusPerTick:0,Duration:1200}

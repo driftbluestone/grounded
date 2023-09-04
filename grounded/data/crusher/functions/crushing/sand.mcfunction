@@ -1,0 +1,13 @@
+execute as @e[type=marker,name="crusher"] at @s if block ~ ~-1 ~ sand as @e[distance=..1,limit=1,type=item,nbt={Item:{id:"minecraft:glass"}}] run data merge entity @s {Item:{id:"minecraft:sand"}}
+execute as @e[type=marker,name="crusher"] at @s if block ~ ~-1 ~ sand as @e[distance=..1,limit=1,type=item,nbt={Item:{id:"minecraft:gravel"}}] run data merge entity @s {Item:{id:"minecraft:sand"}}
+execute as @e[type=marker,name="crusher"] at @s if block ~ ~-1 ~ sand as @e[distance=..1,limit=1,type=item,nbt={Item:{id:"minecraft:andesite"}}] run data merge entity @s {Item:{id:"minecraft:sand"}}
+execute as @e[type=marker,name="crusher"] at @s if block ~ ~-1 ~ sand as @e[distance=..1,limit=1,type=item,nbt={Item:{id:"minecraft:diorite"}}] run data merge entity @s {Item:{id:"minecraft:sand"}}
+execute as @e[type=marker,name="crusher"] at @s if block ~ ~-1 ~ sand as @e[distance=..1,limit=1,type=item,nbt={Item:{id:"minecraft:granite"}}] run data merge entity @s {Item:{id:"minecraft:sand"}}
+execute as @e[type=marker,name="crusher"] at @s if block ~ ~-1 ~ sand as @e[distance=..1,limit=1,type=item,nbt={Item:{id:"minecraft:tuff"}}] run data merge entity @s {Item:{id:"minecraft:sand"}}
+execute as @e[type=marker,name="crusher"] at @s if block ~ ~-1 ~ sand as @e[distance=..1,limit=1,type=item,nbt={Item:{id:"minecraft:cobblestone"}}] run data merge entity @s {Item:{id:"minecraft:sand"}}
+execute as @e[type=marker,name="crusher"] at @s if block ~ ~-1 ~ sand as @e[distance=..1,limit=1,type=item,nbt={Item:{id:"minecraft:cobbled_deepslate"}}] run data merge entity @s {Item:{id:"minecraft:sand"}}
+execute as @e[type=marker,name="crusher"] at @s if block ~ ~-1 ~ sand as @e[distance=..1,limit=1,type=item,nbt={Item:{id:"minecraft:deepslate"}}] run data merge entity @s {Item:{id:"minecraft:sand"}}
+execute as @e[type=marker,name="crusher"] at @s if block ~ ~-1 ~ sand as @e[distance=..1,limit=1,type=item,nbt={Item:{id:"minecraft:basalt"}}] run data merge entity @s {Item:{id:"minecraft:sand"}}
+execute as @e[type=marker,name="crusher"] at @s if block ~ ~-1 ~ sand as @e[distance=..1,limit=1,type=item,nbt={Item:{id:"minecraft:blackstone"}}] run data merge entity @s {Item:{id:"minecraft:sand"}}
+execute as @e[type=marker,name="crusher"] at @s if block ~ ~-1 ~ sand as @e[distance=..1,limit=1,type=item,nbt={Item:{id:"minecraft:stone"}}] run data merge entity @s {Item:{id:"minecraft:sand"}}
+execute as @e[type=marker,name="crusher"] at @s if block ~ ~-1 ~ sand as @e[distance=..1,limit=1,type=item,nbt={Item:{id:"minecraft:smooth_stone"}}] run data merge entity @s {Item:{id:"minecraft:sand"}}

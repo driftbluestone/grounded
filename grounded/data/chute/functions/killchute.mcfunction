@@ -1,3 +1,3 @@
-execute at @e[type=marker,name="fasthopper"] if block ~ ~ ~ air run kill @e[type=item,distance=..1,limit=1,nbt={Item:{id:"minecraft:hopper"}}]
-execute at @e[type=marker,name="fasthopper"] if block ~ ~ ~ air run give @p stray_spawn_egg{EntityTag:{id:"marker"},display:{Name:'[{"text":"Chute","italic":false}]'}}
-execute at @e[type=marker,name="fasthopper"] if block ~ ~ ~ air run kill @e[type=minecraft:marker,distance=..1,limit=1,sort=nearest]
+execute at @e[type=marker,name="fasthopper"] unless block ~ ~ ~ hopper run kill @e[type=item,distance=..1,limit=1,nbt={Item:{id:"minecraft:hopper"}}]
+execute at @e[type=marker,name="fasthopper"] unless block ~ ~ ~ hopper run give @p stray_spawn_egg{EntityTag:{id:"marker"},display:{Name:'[{"text":"Chute","italic":false}]'}}
+execute at @e[type=marker,name="fasthopper"] unless block ~ ~ ~ hopper run kill @e[type=minecraft:marker,distance=..1,limit=1,sort=nearest]

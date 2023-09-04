@@ -1,0 +1,1 @@
+execute as @e[type=marker,name="crusher"] at @s if block ~ ~-1 ~ stone as @e[distance=..1,limit=1,type=item,nbt={Item:{id:"minecraft:smooth_stone"}}] run data merge entity @s {Item:{id:"minecraft:stone"}}

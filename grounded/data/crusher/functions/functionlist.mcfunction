@@ -1,0 +1,3 @@
+function crusher:testair
+function crusher:killcrusher
+function crusher:crushing/crushlist

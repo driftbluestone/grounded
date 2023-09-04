@@ -15,3 +15,5 @@ scoreboard objectives add SweetAxeDarkOakWood minecraft.mined:minecraft.dark_oak
 scoreboard objectives add SweetAxeMangroveWood minecraft.mined:minecraft.mangrove_wood
 scoreboard objectives add SweetAxeCherryWood minecraft.mined:minecraft.cherry_wood
 scoreboard objectives add SweetAxe dummy
+scoreboard objectives add usedcoas minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add blocksMoved dummy

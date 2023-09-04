@@ -1,0 +1,3 @@
+execute at @e[type=marker,name="geneticstable"] unless block ~ ~ ~ dropper run kill @e[type=item,distance=..1,limit=1,nbt={Item:{id:"minecraft:dropper"}}]
+execute at @e[type=marker,name="geneticstable"] unless block ~ ~ ~ dropper run give @p minecraft:skeleton_spawn_egg{EntityTag:{id:"marker"},display:{Name:'[{"text":"Genetics Table","italic":false}]'}}
+execute at @e[type=marker,name="geneticstable"] unless block ~ ~ ~ dropper run kill @e[type=minecraft:marker,distance=..1,limit=1,sort=nearest]
